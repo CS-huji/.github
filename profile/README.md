@@ -1,72 +1,60 @@
-<!-- .github/profile/README.md -->
-
 # 👩‍💻 CS-huji  
-## Computer Science Projects – The Hebrew University of Jerusalem
+### B.Sc. Computer Science Projects  
+**The Hebrew University of Jerusalem (HUJI)**
 
-ארגון זה מרכז את הפרויקטים שכתבתי במסגרת לימודי  
-**תואר במדעי המחשב באוניברסיטה העברית בירושלים (HUJI)**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Degree-B.Sc._Computer_Science-blue">
+  <img src="https://img.shields.io/badge/University-HUJI-red">
+  <img src="https://img.shields.io/badge/Languages-Python|C|C++-success">
+  <img src="https://img.shields.io/badge/Focus-Algorithms|Data%20Structures|Systems-important">
+</p>
 
-הפרויקטים נכתבו כחלק מקורסי היסוד בתואר, ומשקפים עבודה מעשית ב־  
-**Python**, **C**, ו־**C++**, בדגש על אלגוריתמים, מבני נתונים ופתרון בעיות.
+This organization contains academic projects developed as part of my  
+B.Sc. in Computer Science at The Hebrew University of Jerusalem.
 
----
-
-# 📘 קורס 1 — מבוא למדעי המחשב (Python)
-
-קורס יסוד בשנה א׳ המתמקד בפיתוח חשיבה אלגוריתמית ותכנות בשפת Python.
-
-### נושאים מרכזיים:
-- מבני בקרה (if / loops)
-- פונקציות ומודולריות
-- רשימות, מילונים ומבני נתונים בסיסיים
-- רקורסיה
-- תכנות מונחה עצמים (OOP)
-- אלגוריתמים בסיסיים וניתוח זמן ריצה
-
-### 🐍 פרויקטים מהקורס
-
-| פרויקט | תיאור קצר | שפה |
-|---------|------------|------|
-| **Snake** | מימוש משחק Snake מלא | Python |
-| **RushHour** | פתרון חידת Rush Hour באמצעות לוגיקה אלגוריתמית | Python |
-| **Boggle** | משחק Boggle עם GUI וחיפוש מילים | Python |
-| **DecisionTree** | מימוש עץ החלטה | Python |
-| **Project X** | (להשלמה אם יש פרויקט נוסף בקורס) | Python |
+Projects are grouped by language and academic context.
 
 ---
 
-# 💻 קורס 2 — תכנות ומבני נתונים ב־C / C++
+# 🐍 Python Projects  
+*(Introduction to Computer Science & Algorithmic Thinking)*
 
-פרויקטים אלו משקפים תרגול והעמקה בשפות מערכת ובמימושים יעילים.
-
-### נושאים מרכזיים:
-- עבודה עם מצביעים וזיכרון דינמי
-- מבני נתונים (HashMap, עצים, מבנים מותאמים)
-- ניתוח סיבוכיות
-- ניהול זיכרון ידני
-- עקרונות תכנות יעיל
-
-### 🧠 פרויקטים בשפות C / C++
-
-| פרויקט | תיאור קצר | שפה |
-|---------|------------|------|
-| **CaesarCipher** | מימוש קידוד קיסר עם בדיקות | C |
-| **TweetsGenerator** | מחולל טקסט מבוסס Markov Chain | C |
-| **MyHashMap** | מימוש HashMap מאפס | C++ |
-| **StreamRecommender** | מערכת המלצות בסגנון Netflix | C++ |
-| **Project Y** | (להשלמה אם יש פרויקט נוסף) | C/C++ |
+| Project | Description |
+|----------|-------------|
+| [Snake](https://github.com/CS-huji/Snake) | Full implementation of the classic Snake game |
+| [RushHour](https://github.com/CS-huji/RushHour) | Rush Hour puzzle solver |
+| [Boggle](https://github.com/CS-huji/Boggle) | Boggle word game with GUI |
+| [DecisionTree](https://github.com/CS-huji/DecisionTree) | Decision tree built using linked structures |
+| [NonogramSolver](https://github.com/CS-huji/NonogramSolver) | Nonogram puzzle solver using backtracking |
+| [Cartoonify](https://github.com/CS-huji/Cartoonify) | Image processing cartoon-style transformation |
+| [HangMan](https://github.com/CS-huji/HangMan) | Hangman game implementation |
+| [ex3_python](https://github.com/CS-huji/ex3_python) | Loops exercise |
+| [ex7_python](https://github.com/CS-huji/ex7_python) | Recursion exercise |
 
 ---
 
-# 🛠️ הרצה מקומית
+# 💻 C / C++ Projects  
+*(Systems Programming & Data Structures)*
 
-### Python
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip3 install -r requirements.txt   # אם קיים
-python3 main.py
+| Project | Description |
+|----------|-------------|
+| [CaesarCipher](https://github.com/CS-huji/CaesarCipher) | Caesar cipher implementation with TDD |
+| [TweetsGenerator](https://github.com/CS-huji/TweetsGenerator) | NLP-based Markov chain text generator |
+| [GenericProgramming](https://github.com/CS-huji/GenericProgramming) | Generic C implementation for NLP conversion |
+| [MyHashMap](https://github.com/CS-huji/MyHashMap) | HashMap implementation from scratch |
+| [StreamRecommender](https://github.com/CS-huji/StreamRecommender) | Netflix-style recommendation engine |
+| [DigitRecognizer](https://github.com/CS-huji/DigitRecognizer) | Neural-network-based digit recognition (C++) |
 
-### c/cpp
-make
-./program
+---
+
+# 🎓 Academic Context
+
+These projects reflect practical implementation of:
+
+- Algorithmic problem solving  
+- Data structures  
+- Memory management  
+- Object-oriented programming  
+- Systems-level development  
+
+Developed as part of coursework and independent academic practice during my Computer Science degree at HUJI.
